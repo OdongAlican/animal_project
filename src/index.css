@@ -1,13 +1,404 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.left-nav,
+.right-nav {
+  flex: 1;
+  border-bottom: 5px solid #CBD9DE;
+}
+
+.central-nav {
+  flex: 4;
+  border-bottom: 5px solid #323438;
+  padding: 20px 20px 0 0;
+}
+
+.nav-title {
+  background-image: linear-gradient(#4FA1F3 #54A5F5 #53A3F5);
+  background-color: #53A3F5;
+  border: 1px solid #399;
+}
+
+.nav-icons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icons-deco {
+  font-size: 21px;
+  padding: 5px;
+  background-color: #F0442F;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+/* .icons-deco :hover {
+  font-size: 22px;
+  width: 60px;
+  height: 60px;
+} */
+
+select {
+  outline: none;
+  border: none;
+  background-color: #31A2B8;
+}
+
+.logo-image-style {
+  width: 50px;
+  height: 50px;
+}
+
+.nav-search input {
+  border: none;
+  border-radius: 50px;
+  padding: 8px 15px;
+  font-size: 13px;
+  font-weight: bold;
+  outline: none;
+}
+
+.upper-nav-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-search {
+  position: relative;
+}
+
+.nav-fa-search {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #777;
+}
+
+.sliding-image {
+  width: 100%;
+  height: 450px;
+}
+
+.donate-button {
+  border: none;
+  padding: 5px 20px;
+  /* border-radius: 3px; */
+}
+
+.carousel-section {
+  position: relative;
+}
+
+.element-details {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 150px;
+  background-color: #777;
+  width: 25%;
+}
+
+.welcome-message {
+  text-align: center;
+  padding: 10px;
+}
+
+.donate-section-div button {
+  border: none;
+  /* border-radius: 3px; */
+  padding: 5px 20px;
+}
+
+.donate-section-div {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+.search-button,
+.partner-button {
+  padding: 20px 80px;
+  width: 100%;
+  background-image: linear-gradient(to top right,hsl(197,80%,94%) 0,hsl(197,83%,86%) 50%,hsl(197,71%,78%) 51%,hsl(198,84%,55%) 100%);
+}
+
+.search-button button {
+  padding: 5px 20px;
+  border: none;
+}
+
+.lower-home-section {
+  width: 80%;
+  background-color: #777;
+  padding: 5px;
+  display: flex;
+}
+
+.home-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-home-section {
+  flex: 3;
+  background-color: #999;
+}
+
+.right-home-section {
+  flex: 2;
+}
+
+.join-us-button button {
+  padding: 5px 20px;
+  border: none;
+}
+
+.join-us-button {
+  background-image: linear-gradient(to top right,hsl(197,80%,94%) 0,hsl(197,83%,86%) 50%,hsl(197,71%,78%) 51%,hsl(198,84%,55%) 100%);
+  padding-bottom: 80px;
+}
+
+.right-home-section {
+  background-color: #444;
+  padding: 5px 5px 5px 10px;
+}
+
+.partners-section button {
+  border: none;
+  display: block;
+  padding: 5px 20px;
+  margin: auto;
+}
+
+.date-input-section button {
+  border: none;
+  padding: 5px 20px !important;
+}
+
+.date-input-section {
+  align-items: center;
+}
+
+.email-contact {
+  border: none;
+  margin: auto;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.upper-email {
+  text-align: center;
+}
+
+.email-contact {
+  height: 35px;
+  margin-bottom: -3px;
+  margin-top: 3px;
+}
+
+.image-display {
+  height: 150px;
+  background-image: url('./Logo/company.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr;
+}
+
+.footer-logo-image {
+  width: 100px;
+  height: 100px;
+}
+
+.grid-element {
+  padding: 10px;
+}
+
+.social-media-links {
+  display: flex;
+}
+
+.facebook-link,
+.twitter-link,
+.google-plus,
+.instagram-link {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  margin-right: 5px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.header-styles {
+  border-bottom: 2px solid green;
+}
+
+.left-copyright {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-copyright {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about-heading {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #666;
+  width: 80%;
+  margin: 20px auto 0;
+}
+
+.about-us-content {
+  width: 80%;
+  margin: auto;
+}
+
+.text-wrap {
+  float: left;
+  margin: 0 20px 0 0;
+  width: 200px;
+  height: 200px;
+}
+
+.donation-information {
+  width: 80%;
+  background-color: #666;
+  margin: 10px auto 0 ;
+  text-align: center;
+}
+
+.donation-information-details {
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+  background-color: #999;
+}
+
+.photo-information {
+  width: 80%;
+  margin: 10px auto 0;
+  text-align: center;
+}
+
+
+.left-photos-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex: 2;
+}
+
+.first-image,
+.second-image,
+.third-image {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  height: 150px;
+  border-radius: 3px;
+}
+
+.first-image {
+  background-image: url('./Logo/pexels-jonas-von-werne-1344000.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.second-image {
+  background-image: url('./Logo/pexels-todd-trapani-1405930.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.third-image {
+  background-image: url('./Logo/pexels-torsten-dettlaff-59523.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.real-photos-section {
+  width: 80%;
+  background-color: #888;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-photos-section {
+  flex: 1;
+  height: 300px;
+  background-image: url('./Logo/pexels-brett-sayles-4839380.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+}
+
+.membership-images {
+  background-color: #777;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.memebership-top {
+  width: 400px;
+  height: 200px;
+  background-color: #888;
+  margin-top: 10px;
+  background-image: url('./Logo/pexels-torsten-dettlaff-59523.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.membership-bottom {
+  display: flex;
+}
+
+.membership-left,
+.membership-right {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  margin: 10px;
+}
+
+.membership-left {
+  background-image: url('./Logo//pexels-todd-trapani-1405930.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.membership-right {
+  background-image: url('./Logo/pexels-brett-sayles-4839380.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
