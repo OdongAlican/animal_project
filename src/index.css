@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+.top-nav-section {
+  background-color: #395723;
+}
+
 .left-nav,
 .right-nav {
   flex: 1;
@@ -29,7 +33,7 @@
 .icons-deco {
   font-size: 21px;
   padding: 5px;
-  background-color: #F0442F;
+  background-color: #F56726;
   color: #fff;
   width: 30px;
   height: 30px;
@@ -40,18 +44,17 @@
   margin-right: 5px;
   margin-bottom: 4px;
   cursor: pointer;
+  transition: transform .2s;
 }
 
-/* .icons-deco :hover {
-  font-size: 22px;
-  width: 60px;
-  height: 60px;
-} */
+.icons-deco:hover {
+  transform: scale(1.2);
+}
 
 select {
   outline: none;
+  background-color: #F56726;
   border: none;
-  background-color: #31A2B8;
 }
 
 .logo-image-style {
@@ -72,6 +75,14 @@ select {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #F56726;
+  color: #fff;
+}
+
+.upper-nav-section a, 
+.upper-nav-section select {
+  color: #fff;
+  text-decoration: none;
 }
 
 .nav-search {
@@ -93,7 +104,6 @@ select {
 .donate-button {
   border: none;
   padding: 5px 20px;
-  /* border-radius: 3px; */
 }
 
 .carousel-section {
@@ -116,7 +126,6 @@ select {
 
 .donate-section-div button {
   border: none;
-  /* border-radius: 3px; */
   padding: 5px 20px;
 }
 

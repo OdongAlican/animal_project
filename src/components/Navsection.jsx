@@ -10,7 +10,7 @@ const NavBar = ({ history, text, handleInput }) => {
 
     return (
         <div className="main-navbar-section">
-            <div className="top-nav-section bg-secondary d-flex">
+            <div className="top-nav-section d-flex">
                 <div className="left-nav"></div>
                 <div className="central-nav">
                     <div className="nav-title w-75 p-3 d-flex">
@@ -41,7 +41,7 @@ const NavBar = ({ history, text, handleInput }) => {
                 </div>
                 <div className="right-nav"></div>
             </div>
-            <div className="bg-info upper-nav-section">
+            <div className="upper-nav-section">
                 <div className="d-flex">
                     <Link className="p-3" to={{
                         pathname: '/'

@@ -3,6 +3,7 @@ import ControlledCarousel from './ControlledCourecel'
 import ReactPlayer from 'react-player'
 import Footer from './Footer'
 import NavBar from './Navsection'
+import Scroller from './Scroller'
 
 const Home = () => {
     let [text, setText] = useState('');
@@ -225,6 +226,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <Scroller/>
             <Footer/>
         </div>
         </div>
