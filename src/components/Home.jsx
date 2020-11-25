@@ -21,9 +21,6 @@ const Home = () => {
     const myRefSeven = useRef();
 
     const displayID = (id)=> {
-        // console.log(typeof(id))
-        // console.log(myRefTwo.current.textContent)
-        // console.log(trial[id])
         if(trial[id] !== "" && myRefOne.current.textContent.includes(trial[id])){
             window.scrollTo({
                 behavior: "smooth",

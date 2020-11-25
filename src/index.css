@@ -418,3 +418,11 @@ select {
 .search-paragraph {
   cursor: pointer;
 }
+
+select {
+  cursor: pointer;
+}
+
+option {
+  cursor: pointer;
+}

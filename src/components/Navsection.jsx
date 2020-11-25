@@ -56,7 +56,7 @@ const NavBar = ({ history, text, handleInput }) => {
                         pathname: '/donations'
                     }}> DONATIONS </Link> 
                     <select onChange={event => handleChange(event.target.value)}>
-                        <option value="partnership">PARTNERSHIPS</option>
+                        <option value="" disabled selected hidden>PARTNERSHIPS</option>
                         <option value="partnership">PARTNERSHIPS</option>
                         <option value="research">RESEARCH</option>
                         <option value="charities">CHARITIES</option>
