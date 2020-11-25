@@ -1,7 +1,10 @@
 import React from 'react'
 import Footer from './Footer'
+import NavBar from './Navsection'
 
 const Donation = () => (
+    <div>
+        <NavBar/>
     <div className="donation-section">
         <div className="donation-information p-2 border">
             <h2>Donations</h2>
@@ -16,6 +19,7 @@ const Donation = () => (
             </p>
         </div>
         <Footer/>
+    </div>
     </div>
 )
 

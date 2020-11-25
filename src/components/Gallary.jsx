@@ -1,7 +1,10 @@
 import React from 'react'
 import Footer from './Footer'
+import NavBar from './Navsection'
 
 const Gallary = () => (
+    <div>
+        <NavBar/>
     <div className="gallary-section">
         <div className="photo-information p-2 border bg-secondary">
             <h2>Photos</h2>
@@ -36,6 +39,7 @@ const Gallary = () => (
             <div className="right-photos-section"></div>
         </div>
         <Footer/>
+    </div>
     </div>
 )
 

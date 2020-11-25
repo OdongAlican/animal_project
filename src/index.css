@@ -402,3 +402,19 @@ select {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+
+.model-div {
+  z-index: 1;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 13em;
+  right: 20px;
+  cursor: pointer;
+  background-color: #fff;
+  overflow-y: auto;
+}
+
+.search-paragraph {
+  cursor: pointer;
+}

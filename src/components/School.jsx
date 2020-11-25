@@ -1,9 +1,11 @@
 import React from 'react'
+import NavBar from './Navsection'
 import Footer from './Footer'
 
 const School = () => {
     return(
         <div>
+            <NavBar/>
             <div className="donation-information p-2 border">
                 <h2>Schools</h2>
             </div>

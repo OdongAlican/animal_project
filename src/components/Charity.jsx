@@ -1,8 +1,11 @@
 import React from 'react'
 import Footer from './Footer'
+import NavBar from './Navsection'
 
 const Charity = () => {
     return(
+        <div>
+            <NavBar/>
         <div>
             <div className="donation-information p-2 border">
                 <h2>Charities</h2>
@@ -28,6 +31,7 @@ const Charity = () => {
                 </p>
             </div>
         <Footer/>
+        </div>
         </div>
     )
 }

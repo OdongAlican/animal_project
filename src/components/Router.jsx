@@ -1,7 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch} from 'react-router-dom'
 import Home from './Home'
-import NavBar from './Navsection'
 import Contact from './Contact'
 import Partnership from './Partnership'
 import Charity from './Charity'
@@ -17,7 +16,6 @@ const Router = () => {
     return(
         <div>
             <BrowserRouter>
-                <NavBar/> 
                 <Switch>
                     <Route path="/" component={ Home } exact />
                     <Route path="/contact" component={ Contact }/>

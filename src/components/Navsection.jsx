@@ -2,8 +2,7 @@ import {React, useState} from 'react'
 import { Link, withRouter } from 'react-router-dom'
 import Logo from '../Logo/animal.jpeg'
 
-const NavBar = ({ history }) => {
-    let [test, setTest] = useState('')
+const NavBar = ({ history, text, handleInput }) => {
 
     const handleChange = (value) => {
         history.push(`/${value}`)
@@ -58,6 +57,7 @@ const NavBar = ({ history }) => {
                     }}> DONATIONS </Link> 
                     <select onChange={event => handleChange(event.target.value)}>
                         <option value="partnership">PARTNERSHIPS</option>
+                        <option value="partnership">PARTNERSHIPS</option>
                         <option value="research">RESEARCH</option>
                         <option value="charities">CHARITIES</option>
                         <option value="volunteers">VOLUNTEERS&INTERNS</option>
@@ -70,7 +70,12 @@ const NavBar = ({ history }) => {
                 </div>
                 <div className="search-section">
                 <div className="nav-search">
-                    <input type="search" name="nav-search" placeholder="Search..."/>
+                    <input 
+                    value= { text } 
+                    type="search" 
+                    name="nav-search" 
+                    onChange={handleInput}
+                    placeholder="Search Word"/>
                     <i className="fas fa-search nav-fa-search"></i>
                 </div>
                 </div>

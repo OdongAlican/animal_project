@@ -1,9 +1,12 @@
 import React from 'react'
 import Footer from './Footer'
 import Image from '../Logo/animal.jpeg'
+import NavBar from './Navsection'
 
 const About = () => {
     return (
+        <div>
+            <NavBar/>
         <div>
             <div className="about-section">
                 <div className="about-heading">
@@ -49,6 +52,7 @@ const About = () => {
             </div>
 
             <Footer/>
+        </div>
         </div>
     )
 }

@@ -1,6 +1,7 @@
 import React from'react'
 import Footer from './Footer'
 import emailjs from 'emailjs-com'
+import NavBar from './Navsection'
 
 const Contact = () => {
 
@@ -17,6 +18,8 @@ const Contact = () => {
       }
 
     return (
+        <div>
+           <NavBar/> 
         <div className="bg-info">
             <form className="contact-form" onSubmit={sendEmail}>
                 <input type="hidden" name="contact_number" />
@@ -31,6 +34,7 @@ const Contact = () => {
                 <input type="submit" value="Send" name="message" />
             </form> 
             <Footer/>
+        </div>
         </div>
     )
 }
