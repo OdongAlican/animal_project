@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 .top-nav-section {
@@ -20,9 +21,7 @@
 }
 
 .nav-title {
-  background-image: linear-gradient(#4FA1F3 #54A5F5 #53A3F5);
-  background-color: #53A3F5;
-  border: 1px solid #399;
+  background-color: #fff;
 }
 
 .nav-icons {
@@ -45,6 +44,12 @@
   margin-bottom: 4px;
   cursor: pointer;
   transition: transform .2s;
+  font-weight: bold;
+}
+
+.main-page-header h5 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 22px;
 }
 
 .icons-deco:hover {
@@ -58,8 +63,9 @@ select {
 }
 
 .logo-image-style {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
 }
 
 .nav-search input {
@@ -69,6 +75,7 @@ select {
   font-size: 13px;
   font-weight: bold;
   outline: none;
+  width: 75%;
 }
 
 .upper-nav-section {
@@ -76,7 +83,11 @@ select {
   justify-content: center;
   align-items: center;
   background-color: #F56726;
-  color: #fff;
+  padding: 5px 0;
+}
+
+.active-button {
+  border: 3px solid #fff;
 }
 
 .upper-nav-section a, 
@@ -91,7 +102,7 @@ select {
 
 .nav-fa-search {
   position: absolute;
-  right: 10px;
+  right: 30%;
   top: 10px;
   color: #777;
 }
@@ -114,9 +125,24 @@ select {
   position: absolute;
   height: 100%;
   top: 0;
-  left: 150px;
-  background-color: #777;
-  width: 25%;
+  left: 110px;
+  width: 39%;
+}
+
+.element-details h3 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 900;
+  font-size: 60px;
+}
+
+.element-details p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.element-details button {
+  background-color: #F56726;
+  color: #fff;
 }
 
 .welcome-message {
@@ -430,8 +456,58 @@ select {
 
 select {
   cursor: pointer;
+  height: 40px;
+  font-weight: bold;
+  width: 130px;
+  margin-top: 7px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 option {
   cursor: pointer;
+}
+
+.various-screen-nav {
+  display: flex;
+  flex: 2;
+  justify-content: center;
+}
+
+.search-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.drop-down-icon {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  font-size: 30px;
+  display: none;
+}
+
+
+@media only screen and (max-width: 1076px) {
+  .drop-down-icon {
+    display: block;
+  }
+
+  .various-screen-nav {
+    flex-direction: column;
+  }
+
+  .upper-nav-section {
+    align-items: flex-start;
+  }
+
+  .various-screen-nav {
+    flex: 1;
+  }
+
+  .search-section {
+    flex: 1;
+    padding-left: 10px;
+  }
 }
