@@ -13,7 +13,7 @@ const About = () => {
                     <h2>About Us</h2>
                 </div>
             </div>
-            <div className="about-us-content p-2 bg-warning">
+            <div className="about-us-content p-2">
                 <div className="company-information p-2 border">
                     <h5>Company Information</h5>
                 </div>

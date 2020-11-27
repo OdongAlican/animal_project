@@ -6,7 +6,7 @@ const Gallary = () => (
     <div>
         <NavBar/>
     <div className="gallary-section">
-        <div className="photo-information p-2 border bg-secondary">
+        <div className="photo-information p-2">
             <h2>Photos</h2>
         </div>
         <div className="donation-information-details">
@@ -35,7 +35,6 @@ const Gallary = () => (
                 <div className="second-image"></div>
                 <div className="third-image"></div>
             </div>
-
             <div className="right-photos-section"></div>
         </div>
         <Footer/>

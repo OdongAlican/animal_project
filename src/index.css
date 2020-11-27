@@ -403,14 +403,26 @@ select {
   display: flex;
   justify-content: center;
   padding: 10px;
-  background-color: #666;
+  background-color: #123214;
   width: 80%;
   margin: 20px auto 0;
+}
+
+.about-heading h2 {
+  color: #fff;
+  font-family: 'Roboto Slab', serif;
 }
 
 .about-us-content {
   width: 80%;
   margin: auto;
+  background-color: #EAEAEA;
+}
+
+.about-us-content h5 {
+  color: #123214;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
 }
 
 .text-wrap {
@@ -422,17 +434,33 @@ select {
 
 .donation-information {
   width: 80%;
-  background-color: #666;
+  background-color: #123214;
+  color: #fff;
   margin: 10px auto 0 ;
   text-align: center;
+}
+
+.photo-information {
+  background-color: #123214;
+  color: #fff;
+}
+
+.photo-information h2 {
+  font-family: 'Roboto Slab', serif;
+}
+
+.donation-information h2 {
+  font-family: 'Roboto Slab', serif;
 }
 
 .donation-information-details {
   width: 80%;
   padding: 10px;
   margin: auto;
-  background-color: #999;
+  background-color: #EAEAEA;
 }
+
+
 
 .photo-information {
   width: 80%;
@@ -453,7 +481,52 @@ select {
   margin-right: 5px;
   margin-bottom: 5px;
   height: 150px;
+}
+
+.social-media-contact i {
+  font-size: 25px;
+  padding: 3px 20px;
+  background-color: #239;
   border-radius: 3px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.first-contact-section {
+  flex: 3;
+  padding: 5px;
+  margin-right: 5px;
+  background-color: #EAEAEA;
+}
+
+.second-contact-section {
+  flex: 1;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #EAEAEA;
+}
+
+.second-contact-section h5 {
+  font-family: 'Roboto Slab', serif;
+  color: #123214;
+}
+
+.second-contact-section p {
+  background-color: #aaa;
+  padding: 10px;
+}
+
+.social-media-contact {
+  margin: auto;
+  justify-content: flex-end;
+  background-color: #aaa;
+  padding: 10px 0;
+}
+
+.contact-lower-section {
+  width: 80%;
+  margin: auto;
+  margin-top: 2px;
 }
 
 .first-image {
@@ -476,7 +549,7 @@ select {
 
 .real-photos-section {
   width: 80%;
-  background-color: #888;
+  background-color: #aaa;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -489,11 +562,10 @@ select {
   background-image: url('./Logo/pexels-brett-sayles-4839380.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  border-radius: 3px;
 }
 
 .membership-images {
-  background-color: #777;
+  background-color: #aaa;
   width: 80%;
   margin: auto;
   display: flex;
@@ -631,6 +703,18 @@ option {
     padding: 10px;
   }
 
+  .contact-lower-section {
+    flex-direction: column;
+  }
+
+  .second-contact-section {
+    margin: 5px 0;
+  }
+
+  .first-contact-section {
+    margin: 5px 0;
+  }
+
   .model-div {
     width: 60%;
     height: 200px;
@@ -693,7 +777,6 @@ option {
 
   .right-copyright a {
     font-size: 12px;
-    background-color: aqua;
   }
 
 }
