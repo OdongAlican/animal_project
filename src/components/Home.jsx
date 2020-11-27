@@ -96,9 +96,9 @@ const Home = () => {
         <NavBar text = {text} handleInput = { handleInput }/>
         <div className="home-section">
             <ControlledCarousel/>
-            <div className="donate-section-div p-2 bg-success mt-2">
-                <div className="welcome-message bg-info w-100">
-                    <p>Welcome to animal Initiative company</p>
+            <div className="donate-section-div p-2 mt-2">
+                <div className="welcome-message w-100">
+                    <p>Welcome to Animal Rescue Initiative</p>
                     <button>
                         Donate<small className="d-none">.</small>
                     </button>
@@ -122,7 +122,7 @@ const Home = () => {
                         url="https://www.youtube.com/watch?v=UVCP4bKy9Iw"
                     />
                     </div>
-                    <div ref={ myRefOne } id="1" className="description-sectio p-2 bg-info">
+                    <div ref={ myRefOne } id="1" className="description-sectio p-2">
                         <p>
                         We provide voluntary / non-profit making services to 
                         reduce unnecessary pain and suffering by improving 
@@ -145,12 +145,12 @@ const Home = () => {
                         </p>
                     </div>
                     <div className="join-us-button">
-                        <div className="w-100 p-3">
+                        <div className="w-100 p-3 first-join-us-btn">
                             <button>
                                 Join Us<small className="d-none">.</small>
                             </button>
                         </div>
-                        <div  ref={ myRefTwo } className="lower-description-section p-2 bg-warning">
+                        <div  ref={ myRefTwo } className="lower-description-section p-2">
                             <h6>
                                 To reduce pain and suffering in animals by improving: kindness 
                                 compassion. 
@@ -163,7 +163,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="right-home-section pt-0">
-                    <div className="partners-section bg-info">
+                    <div className="partners-section">
                         <div className="partner-button">
                             <button>
                                 Partners
@@ -177,7 +177,7 @@ const Home = () => {
                             for staff to enable outreach.
                         </h6>
                     </div>
-                    <div id="3" className="abroad-section bg-secondary bg-warning p-2">
+                    <div id="3" className="abroad-section pt-2 px-1">
                         <div className="image-display w-75 m-auto"></div>
                         <h6 ref={ myRefFive } className="mt-3">
                             Animal Aid Abroad (AAA) Australia has partnered 
@@ -186,10 +186,10 @@ const Home = () => {
                             by providing animal medicines.
                         </h6>
                     </div>
-                    <div className="news-section bg-secondary bg-danger p-2">
+                    <div className="news-section p-2">
                         <div className="image-display w-75 m-auto"></div>
-                        <div className="date-input-section d-flex mt-2">
-                            <div className="time-date-section border p-1">
+                        <div className="date-input-section p-1 d-flex mt-2">
+                            <div className="time-date-section p-1">
                                 <small className="d-block">{ today }</small>
                                 <small className="d-block">{ time }</small>
                             </div>
@@ -210,7 +210,7 @@ const Home = () => {
                             and SPANA – UK Partners. 
                         </h6>
                     </div>
-                    <div className="email-address bg-warning py-2">
+                    <div className="email-address py-2">
                         <div ref={ myRefSeven } className="upper-email">
                             <small>EMail:animalwelfareprotection.org@gmail.com</small>
                         </div>

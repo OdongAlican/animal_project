@@ -5,7 +5,7 @@
 }
 
 .top-nav-section {
-  background-color: #395723;
+  background-color: #123214;
 }
 
 .left-nav,
@@ -154,6 +154,8 @@ select {
 .donate-section-div button {
   border: none;
   padding: 5px 20px;
+  color: #fff;
+  background-color: #F56726;
 }
 
 .donate-section-div {
@@ -162,16 +164,25 @@ select {
   width: 80%;
 }
 
+.donate-section-div p {
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #395723;
+}
+
 .search-button,
 .partner-button {
   padding: 20px 80px;
   width: 100%;
-  background-image: linear-gradient(to top right,hsl(197,80%,94%) 0,hsl(197,83%,86%) 50%,hsl(197,71%,78%) 51%,hsl(198,84%,55%) 100%);
+  background-color: #123214;
 }
 
 .search-button button {
   padding: 5px 20px;
   border: none;
+  background-color: #F56726;
+  color: #fff;
 }
 
 .youtube-video-section {
@@ -181,7 +192,6 @@ select {
 .lower-home-section {
   width: 80%;
   background-color: #777;
-  padding: 5px;
   display: flex;
 }
 
@@ -193,12 +203,12 @@ select {
 
 .left-home-section {
   flex: 3;
-  background-color: #999;
+  background-color: #EAEAEA;
 }
 
 .right-home-section {
   flex: 2;
-  background-color: #444;
+  background-color: #fff;
   padding: 5px 5px 5px 10px;
 }
 
@@ -207,9 +217,26 @@ select {
   border: none;
 }
 
+.abroad-section {
+  background-color: #EAEAEA;
+}
+
+.news-section {
+  background-color: #EAEAEA;
+}
+
+.abroad-section h6 {
+  background-color: #395723;
+  padding: 10px;
+  color: #fff;
+}
+
 .join-us-button {
-  background-image: linear-gradient(to top right,hsl(197,80%,94%) 0,hsl(197,83%,86%) 50%,hsl(197,71%,78%) 51%,hsl(198,84%,55%) 100%);
   padding-bottom: 80px;
+}
+
+.fa-arrow-right {
+  color: #F56726;
 }
 
 .partners-section button {
@@ -217,6 +244,18 @@ select {
   display: block;
   padding: 5px 20px;
   margin: auto;
+  background-color: #F56726;
+  color: #fff;
+}
+
+.partners-section {
+  background-color: #EAEAEA;
+  color: #000;
+}
+
+.description-sectio {
+  background-color: #EAEAEA;
+  color: #000;
 }
 
 .date-input-section button {
@@ -224,8 +263,30 @@ select {
   padding: 5px 20px !important;
 }
 
+.email-address {
+  background-color: #123214;
+  color: #fff;
+}
+
+.email-address button {
+  background-color: #F56726;
+  color: #fff;
+}
+
 .date-input-section {
   align-items: center;
+  background-color: #123214;
+}
+
+.date-input-section button {
+  background-color: #F56726;
+  color: #fff;
+}
+
+.time-date-section {
+  background-color: #0269D9;
+  color: #fff;
+  border: 2px solid #fff;
 }
 
 .email-contact {
@@ -237,6 +298,21 @@ select {
 
 .upper-email {
   text-align: center;
+}
+
+.first-join-us-btn {
+  background-color: #123214;
+}
+
+.first-join-us-btn button {
+  background-color: #F56726;
+  color: #fff;
+}
+
+.lower-description-section {
+  background-color: #395723;
+  color: #fff;
+  margin-top: 10px;
 }
 
 .email-contact {
@@ -255,6 +331,9 @@ select {
 .footer-section {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 2fr;
+  background-image: url('./Logo/third.jpg');
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
 }
 
 .footer-logo-image {
@@ -264,6 +343,10 @@ select {
 
 .grid-element {
   padding: 10px;
+}
+
+.grid-element h6 {
+  font-size: 15px;
 }
 
 .social-media-links {
@@ -284,6 +367,7 @@ select {
   font-size: 22px;
   margin-right: 5px;
   padding: 20px;
+  background-color: #395723;
   cursor: pointer;
 }
 
@@ -302,6 +386,17 @@ select {
   flex: 1;
   display: flex;
   justify-content: flex-end;
+}
+
+.right-copyright a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.right-copyright a:hover {
+  color: #F56726;
 }
 
 .about-heading {
@@ -406,6 +501,10 @@ select {
   align-items: center;
 }
 
+.header-styles {
+  font-family: 'Roboto Slab', serif;
+}
+
 .memebership-top {
   width: 400px;
   height: 200px;
@@ -438,6 +537,15 @@ select {
   background-image: url('./Logo/pexels-brett-sayles-4839380.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
+}
+
+.copyright-section h6 {
+  color: #fff;
+  font-size: 14px;
+}
+
+.copyright-section {
+  background-color: #395723;
 }
 
 .model-div {
@@ -567,6 +675,25 @@ option {
   .element-details {
     width: 80%;
     left: 40px;
+  }
+
+  .facebook-link,
+  .twitter-link,
+  .google-plus,
+  .instagram-link {
+    width: 20px;
+    height: 20px;
+    background-color: #395723;
+  }
+
+  .footer-logo-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .right-copyright a {
+    font-size: 12px;
+    background-color: aqua;
   }
 
 }

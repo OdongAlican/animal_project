@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
     return(
         <div className="fixed-footer">
-            <div className="footer-section w-100 bg-secondary text-white p-3 mt-3">
+            <div className="footer-section w-100 text-white p-3 mt-3">
                 <div className="footer-logo-section grid-element d-flex justify-content-center">
                     <img src={ Logo } alt="company-log" className="footer-logo-image"/>
                 </div>
@@ -76,7 +76,7 @@ const Footer = () => {
                 </div>
 
             </div>
-            <div className="copyright-section bg-info d-flex align-items-center">
+            <div className="copyright-section d-flex align-items-center">
                 <div className="left-copyright">
                     <h6 className="p-3">Copyright © 2020. All rights reserved by, Animal Rescue Initiative</h6>
                 </div>
