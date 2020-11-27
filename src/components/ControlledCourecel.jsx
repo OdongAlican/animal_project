@@ -2,7 +2,9 @@ import React, { useState } from 'react'
 import Carousel from "react-bootstrap/Carousel";
 import First from '../Logo/first.jpg'
 import Second from '../Logo/second.jpg'
-
+import Third from '../Logo/third.jpg'
+import Fourth from '../Logo/fourth.jpg'
+import Fifth from '../Logo/fifth.jpg'
 
 function ControlledCarousel() {
     const [index, setIndex] = useState(0);
@@ -40,7 +42,7 @@ function ControlledCarousel() {
         <Carousel.Item className="carousel-section">
           <img
             className="d-block sliding-image"
-            src={ First }
+            src={ Third }
             alt="Third slide"
           />
           <Carousel.Caption className="element-details">
@@ -54,7 +56,7 @@ function ControlledCarousel() {
         <Carousel.Item className="carousel-section">
           <img
             className="d-block sliding-image"
-            src={ First }
+            src={ Fourth }
             alt="Fourth slide"
           />
           <Carousel.Caption className="element-details">
@@ -68,7 +70,7 @@ function ControlledCarousel() {
         <Carousel.Item className="carousel-section">
           <img
             className="d-block sliding-image"
-            src={ First }
+            src={ Fifth }
             alt="Fifth slide"
           />
           <Carousel.Caption className="element-details">

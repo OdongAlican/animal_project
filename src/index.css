@@ -22,6 +22,7 @@
 
 .nav-title {
   background-color: #fff;
+  width: 75%;
 }
 
 .nav-icons {
@@ -173,6 +174,10 @@ select {
   border: none;
 }
 
+.youtube-video-section {
+  height: 200px;
+}
+
 .lower-home-section {
   width: 80%;
   background-color: #777;
@@ -193,6 +198,8 @@ select {
 
 .right-home-section {
   flex: 2;
+  background-color: #444;
+  padding: 5px 5px 5px 10px;
 }
 
 .join-us-button button {
@@ -203,11 +210,6 @@ select {
 .join-us-button {
   background-image: linear-gradient(to top right,hsl(197,80%,94%) 0,hsl(197,83%,86%) 50%,hsl(197,71%,78%) 51%,hsl(198,84%,55%) 100%);
   padding-bottom: 80px;
-}
-
-.right-home-section {
-  background-color: #444;
-  padding: 5px 5px 5px 10px;
 }
 
 .partners-section button {
@@ -443,7 +445,7 @@ select {
   width: 400px;
   height: 400px;
   position: absolute;
-  top: 13em;
+  top: 225px;
   right: 20px;
   cursor: pointer;
   background-color: #fff;
@@ -510,4 +512,61 @@ option {
     flex: 1;
     padding-left: 10px;
   }
+}
+
+@media only screen and (max-width: 890px) {
+  .element-details {
+    top: 200px;
+    height: unset;
+    background-color: #666;
+    width: 60%;
+    padding: 10px;
+  }
+
+  .model-div {
+    width: 60%;
+    height: 200px;
+  }
+
+  .element-details h3 {
+    font-weight: 700;
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+
+  .footer-section {
+    grid-template-columns: 2fr 2fr;
+  }
+
+  .lower-home-section {
+    flex-direction: column;
+
+  }
+
+  .right-home-section {
+    padding: 5px 0 0 0;
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+  .nav-title {
+    width: 95%;
+  }
+
+  .model-div {
+    width: 80%;
+    height: 180px;
+    top: 250px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .element-details {
+    width: 80%;
+    left: 40px;
+  }
+
 }

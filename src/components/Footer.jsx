@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
     return(
         <div className="fixed-footer">
-            <div className="footer-section bg-secondary text-white p-3 mt-3">
+            <div className="footer-section w-100 bg-secondary text-white p-3 mt-3">
                 <div className="footer-logo-section grid-element d-flex justify-content-center">
                     <img src={ Logo } alt="company-log" className="footer-logo-image"/>
                 </div>

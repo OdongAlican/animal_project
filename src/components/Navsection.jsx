@@ -34,7 +34,7 @@ const NavBar = ({ history, text, handleInput }) => {
             <div className="top-nav-section d-flex">
                 <div className="left-nav"></div>
                 <div className="central-nav">
-                    <div className="nav-title w-75 p-3 d-flex justify-content-center">
+                    <div className="nav-title p-3 d-flex justify-content-center">
                         <div className="company-logo">
                             <img className="logo-image-style" src={ Logo } alt="logo"></img>
                         </div>

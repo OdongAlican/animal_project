@@ -118,6 +118,7 @@ const Home = () => {
                     </div>
                     <div className="youtube-section">
                     <ReactPlayer
+                    className="w-100 youtube-video-section"
                         url="https://www.youtube.com/watch?v=UVCP4bKy9Iw"
                     />
                     </div>
