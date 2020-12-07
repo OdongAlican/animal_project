@@ -178,7 +178,29 @@ const Home = () => {
                         </h6>
                     </div>
                     <div id="3" className="abroad-section pt-2 px-1">
-                        <div className="image-display w-75 m-auto"></div>
+                        <div className="image-display m-auto">
+                            <div className="image-display-inner"></div>
+                            <div className="image-display-text">
+                                <div className="local-government">
+                                    <span>GULU CITY</span>
+                                </div>
+                                <div className="flag-section">
+                                    <div className="first-flag">
+                                        <div className="empty-one"></div>
+                                        <div className="empty-two"></div>
+                                        <div className="empty-three"></div>
+                                    </div>
+                                    <div className="flag-text">
+                                        <small>Local Government</small>
+                                    </div>
+                                    <div className="last-flag">
+                                        <div className="empty-one"></div>
+                                        <div className="empty-two"></div>
+                                        <div className="empty-three"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <h6 ref={ myRefFive } className="mt-3">
                             Animal Aid Abroad (AAA) Australia has partnered 
                             with AWPO to improve the health of working donkeys 
@@ -187,7 +209,29 @@ const Home = () => {
                         </h6>
                     </div>
                     <div className="news-section p-2">
-                        <div className="image-display w-75 m-auto"></div>
+                        <div className="image-display m-auto">
+                            <div className="image-display-inner"></div>
+                            <div className="image-display-text">
+                                <div className="local-government">
+                                    <span>AMURU DISTRICT</span>
+                                </div>
+                                <div className="flag-section">
+                                    <div className="first-flag">
+                                        <div className="empty-one"></div>
+                                        <div className="empty-two"></div>
+                                        <div className="empty-three"></div>
+                                    </div>
+                                    <div className="flag-text">
+                                        <small>Local Government</small>
+                                    </div>
+                                    <div className="last-flag">
+                                        <div className="empty-one"></div>
+                                        <div className="empty-two"></div>
+                                        <div className="empty-three"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div className="date-input-section p-1 d-flex mt-2">
                             <div className="time-date-section p-1">
                                 <small className="d-block">{ today }</small>

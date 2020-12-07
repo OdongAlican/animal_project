@@ -10,13 +10,13 @@ const Footer = () => {
                     <img src={ Logo } alt="company-log" className="footer-logo-image"/>
                 </div>
                 <div className="company-details grid-element">
-                    <header className="header-styles pb-2">Company Details</header>
+                    <header className="header-styles pb-2">Organization Details</header>
                     <h6 className="mt-3">
-                        Organic farming is beneficial to a wide range of 
-                        organisms. It restores the biodiversity of the core 
-                        resources and habitat of the region. The symbiosis 
-                        between flora and fauna, animals, and humans with 
-                        a chemical-free environment is paradise on Earth.
+                    To empower the community to realize the 
+                    importance of animal care and improved quality of life
+                    of animals for improved production and 
+                    household income, health and environment being
+                    conserved.
                     </h6>
                 </div>
                 <div className="contact-us grid-element">
