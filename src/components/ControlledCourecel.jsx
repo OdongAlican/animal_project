@@ -22,9 +22,9 @@ function ControlledCarousel() {
             alt="First slide"
           />
           <Carousel.Caption className="element-details">
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                <button className="donate-button">Donate</button>
+                <h3>Cattle Farms</h3>
+                <p>Castration, Vaccination, Pregnancy Diagnosis, and others</p>
+                <button className="donate-button">View More</button>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="carousel-section">
@@ -34,9 +34,9 @@ function ControlledCarousel() {
             alt="Second slide"
           />
           <Carousel.Caption className="element-details">
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button className="donate-button">Donate</button>
+            <h3>Goats Farm</h3>
+            <p>Sensitization of farmers, Voluntary treatment, and others.</p>
+            <button className="donate-button">View More</button>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="carousel-section">
@@ -46,11 +46,11 @@ function ControlledCarousel() {
             alt="Third slide"
           />
           <Carousel.Caption className="element-details">
-            <h3>Third slide label</h3>
+            <h3>Stray Dogs</h3>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              Rabies vaccination, spay and neuter and others.
             </p>
-            <button className="donate-button">Donate</button>
+            <button className="donate-button">View More</button>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="carousel-section">
@@ -60,11 +60,11 @@ function ControlledCarousel() {
             alt="Fourth slide"
           />
           <Carousel.Caption className="element-details">
-            <h3>Third slide label</h3>
+            <h3>Poultry Farm</h3>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Sensitization of farmers, Vaccination, de-beaking, and others
             </p>
-            <button className="donate-button">Donate</button>
+            <button className="donate-button">View More</button>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="carousel-section">
@@ -74,11 +74,11 @@ function ControlledCarousel() {
             alt="Fifth slide"
           />
           <Carousel.Caption className="element-details">
-            <h3>Third slide label</h3>
+            <h3>Pigs Farm</h3>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              Sensitization of farmers, Voluntary treatment, and others.
             </p>
-            <button className="donate-button">Donate</button>
+            <button className="donate-button">View More</button>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

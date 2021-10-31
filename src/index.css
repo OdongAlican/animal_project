@@ -4,6 +4,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+button {
+  outline: none !important;
+}
+
 .top-nav-section {
   background-color: #123214;
 }
@@ -624,7 +628,7 @@ select {
 
 .real-photos-section {
   width: 80%;
-  background-color: #aaa;
+  background-color: #fff;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -634,7 +638,7 @@ select {
 .right-photos-section {
   flex: 1;
   height: 300px;
-  background-image: url('./Logo/pexels-brett-sayles-4839380.jpg');
+  background-image: url('./Logo/pexels-torsten-dettlaff-59523.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }

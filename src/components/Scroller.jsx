@@ -4,10 +4,10 @@ import ScrollToTop from "react-scroll-to-top";
 function Scroller() {
   return (
     <div>
-      <ScrollToTop smooth style={{
-          background: 'blue',
+      <ScrollToTop color="white" smooth style={{
+          background: '#F56726',
           padding: "5px",
-          outline: "none"
+          outline: "none",
       }} />
     </div>
   );

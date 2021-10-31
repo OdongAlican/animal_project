@@ -28,7 +28,9 @@ const Contact = () => {
                 <div className="first-contact-section">
                     <div className="social-media-contact border d-flex">
                         <div className="facebook-section">
-                            <i class="fab fa-facebook-f"></i>
+                            <a href="https://www.facebook.com/search/top?q=otto%20reagan%20kainan" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
                         </div>
                         <div className="twitter-section">
                             <i class="fab fa-twitter"></i>

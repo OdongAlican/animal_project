@@ -119,7 +119,7 @@ const Home = () => {
                     <div className="youtube-section">
                     <ReactPlayer
                     className="w-100 youtube-video-section"
-                        url="https://www.youtube.com/watch?v=UVCP4bKy9Iw"
+                        url="https://www.youtube.com/watch?v=5Tcnn52dzgw"
                     />
                     </div>
                     <div ref={ myRefOne } id="1" className="description-sectio p-2">
@@ -171,10 +171,11 @@ const Home = () => {
                             </button>
                         </div>
                         <h6 ref={ myRefFour } id="2" className="p-2">
-                            SPANA and AWPO have partnered to “improve the 
-                            lives of working donkeys among the poorest  
-                            communities" by provision of technical support 
-                            for staff to enable outreach.
+                            Gulu City has partnered to provide 
+                            services including; easy access to the 
+                            vulnerable and disadvantaged people within 
+                            the City, mobilisation of farmers for 
+                            activities like sensitization.
                         </h6>
                     </div>
                     <div id="3" className="abroad-section pt-2 px-1">
@@ -202,10 +203,43 @@ const Home = () => {
                             </div>
                         </div>
                         <h6 ref={ myRefFive } className="mt-3">
-                            Animal Aid Abroad (AAA) Australia has partnered 
-                            with AWPO to improve the health of working donkeys 
-                            and the lives of their poor households 
-                            by providing animal medicines.
+                            Omoro District has partnered to provide 
+                            services including; easy access to the 
+                            vulnerable and disadvantaged people within 
+                            the District, mobilisation of farmers for 
+                            activities like sensitization.
+                        </h6>
+                    </div>
+                    <div id="3" className="abroad-section pt-2 px-1">
+                        <div className="image-display m-auto">
+                            <div className="image-display-inner"></div>
+                            <div className="image-display-text">
+                                <div className="local-government">
+                                    <span>OMORO DISTRICT</span>
+                                </div>
+                                <div className="flag-section">
+                                    <div className="first-flag">
+                                        <div className="empty-one"></div>
+                                        <div className="empty-two"></div>
+                                        <div className="empty-three"></div>
+                                    </div>
+                                    <div className="flag-text">
+                                        <small>Local Government</small>
+                                    </div>
+                                    <div className="last-flag">
+                                        <div className="empty-one"></div>
+                                        <div className="empty-two"></div>
+                                        <div className="empty-three"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h6 ref={ myRefFive } className="mt-3">
+                            Amuru District has partnered to provide 
+                            services including; easy access to the 
+                            vulnerable and disadvantaged people within 
+                            the District, mobilisation of farmers for 
+                            activities like sensitization.
                         </h6>
                     </div>
                     <div className="news-section p-2">
@@ -240,19 +274,7 @@ const Home = () => {
                             <button className="ml-2">
                                 News<small className="d-none">.</small>
                             </button>
-                        </div>
-                        <h6 ref={ myRefSix } id="4" className="mt-3">
-                            Primary school goers; veterinary workers; the poor 
-                            owners and communities made aware and trained by AWPO 
-                            to care and be kind to animals for improved health and 
-                            productivity. Free of cost MOBILE ANIMAL CLINICS used 
-                            to examine and treat working donkeys in: Sironko; Bulambuli; 
-                            Kapchorwa and Bukwo Districts. Schools formed ANIMAL 
-                            WELFARE CLUBS to enable permanent: respect and kindness 
-                            to animals. COVID-19 directives and guidelines were in 
-                            use. AWPO is grateful to the: AAA – Australia 
-                            and SPANA – UK Partners. 
-                        </h6>
+                        </div> 
                     </div>
                     <div className="email-address py-2">
                         <div ref={ myRefSeven } className="upper-email">

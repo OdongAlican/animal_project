@@ -26,7 +26,7 @@ const Gallary = () => (
             and to the environment  / ecosystems
             </p>
         </div>
-        <div className="real-photos-section p-2">
+        <div className="real-photos-section mt-2">
             <div className="left-photos-section">
                 <div className="first-image"></div>
                 <div className="second-image"></div>
